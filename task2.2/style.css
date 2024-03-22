@@ -1,0 +1,178 @@
+*{margin: 0;
+padding: 0;}
+.nav-ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+nav{
+    box-shadow: 10px 0px 150px 44px gold;
+    position: relative;
+    z-index: 1;
+}
+.nav-ul li :hover{
+    color: white;
+    background-color: brown;
+}
+.li-a{
+    text-decoration: none;
+    color: white;
+}
+.section-1{
+    height:100vh;
+    width: 100%;
+    background: url(assets/img/coffeehouse.jpg);
+    position: relative;
+}
+.titel-div{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 26%;
+}
+.titel-div h1{
+    font-size: 100px;
+}
+.l-b{
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    color: white;
+    background-color: black;
+}
+.r-b{
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.about-div{
+    color: white;
+    background-color: black;
+    margin: 10px;
+}
+.p-div{
+    margin: 10px;
+}
+.gray-padding{
+    margin: 10px;
+    border-left: 2px solid black;
+    background-color: rgb(161, 161, 161);
+}
+.img-div img{
+    width: 610px;
+}
+.section-3{
+    
+    padding-left: 26%;
+    padding-right: 26%;
+}
+ .sc-div{
+    margin-top: 10px;
+
+}
+.section-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+    
+}
+.menu-div{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    margin: 10px;
+}
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(56, 11, 11);
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.eat-h1{
+    background-color: rgb(91, 91, 91);
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.drink-h1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.section-6{
+    margin-right: 25%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 173, 173);
+    gap: 25px;
+    border: 2px solid rgb(56, 11, 11);
+}
+
+.section-7{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 20px;   
+}
+.img-div-2 img{
+    width: 628px;
+}
+.container-div-sec7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.container-div-sec7 div{
+    background-color: black;
+    color: white;
+}
+.img-div-3{
+    margin: 30px 0px;
+}
+.img-div-3 img{
+    width: 628px;
+}
+.white-strong{
+    background-color: black;
+    color: white;
+}
+.p-margin{
+    margin: 20px 0px;
+}
+.form-div form input{
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+}
+.send{
+    color: white;
+    background-color: black;
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search:focus{
+    background-color: red;
+}
